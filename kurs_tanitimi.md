@@ -2,16 +2,16 @@
 
 ## Temel Kavramlar 
 
-+ Kursun için gereken temel Kavramların gözden geçirilmesi
++ Kursun için gereken temel kavramların gözden geçirilmesi
 + UNIX türevi sistemlerin tarihsel gelişimi
 + Özgür Yazılım ve Açık Kaynak Kod akımları
 + UNIX türevi sistemlere yönelik standartlar 
 + Kaynak yöneticisi olarak işletim sistemleri
-+ Dağıtım (distribution) kavramı.
++ Dağıtım `(distribution)` kavramı.
 + Belli başlı Linux dağıtımları ve bu dağıtımlar arasındaki ilişkiler
 + Proses kavramı 
-+ Proseslerin Kontrol Blokları
-+ Çok prosesli (multiprocessing) çalışma ve zaman paylaşımlı (time sharing) CPU kullanımı 
++ Proseslerin kontrol blokları
++ Çok prosesli `(multiprocessing) çalışma ve zaman paylaşımlı (time sharing) CPU kullanımı 
 + Preemptive işletim sistemlerinin temel özellikleri 
 + Kavramsal olarak POSIX fonksiyonları, Standart C Fonksiyonları ve işletim sisteminin sistem fonksiyonları
 
@@ -21,7 +21,7 @@
 + Kullanıcı ve Grup Kavramları
 + Kullanıcı ve Grup İsimleri
 + Login sırasında yapılan kontroller
-+ Linux dizin yapısının incelenmesi (/bin dizini, /lib dizini, /usr dizini, /mnt dizini, …)
++ Linux dizin yapısının incelenmesi `(/bin dizini, /lib dizini, /usr dizini, /mnt dizini, …)`
 
 ## UNIX/Linux Sistemlerinde Temel Dosya İşlemleri
 
@@ -58,7 +58,7 @@
 + Koruma mekanizmasının anlamı
 + Bellek ve komut korumaları
 + Proseslerin bellek izolasyonu hakkında temel bilgiler
-+ + Çekirdeğin kendini kullanıcı modundaki (usermode) prosesler tarafından koruması
++ Çekirdeğin kendini kullanıcı modundaki (usermode) prosesler tarafından koruması
 + User Mod / KernelMod proses kavramları
 + Prosesin kullanıcı modundançekirdekmoduna geçmesi ve geri dönmesi (usermode/kernelmodetransition)
 
