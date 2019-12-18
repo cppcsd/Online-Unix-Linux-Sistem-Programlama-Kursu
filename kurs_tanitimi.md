@@ -17,15 +17,15 @@
 
 ## UNIX Türevi Sistemlerde Login İşlemleri
 
-+ Sisteme Giriş ve login işlemi
-+ Kullanıcı ve Grup Kavramları
-+ Kullanıcı ve Grup İsimleri
++ Sisteme giriş ve login işlemi
++ Kullanıcı ve grup kavramları
++ Kullanıcı ve grup isimleri
 + Login sırasında yapılan kontroller
 + Linux dizin yapısının incelenmesi `(/bin dizini, /lib dizini, /usr dizini, /mnt dizini, …)`
 
 ## UNIX/Linux Sistemlerinde Temel Dosya İşlemleri
 
-+ Proseslerin Kullanıcı ve Grup Id’leri
++ Proseslerin kullanıcı ve grup id’leri
 + Proseslerin ek grup id’leri (supplemantarygroupids)
 + Kullanıcı ve grup bilgilerinin elde edilmesi
 + Yol ifadelerinin anlamı, mutlak ve göreli yol ifadeleri
@@ -51,7 +51,7 @@
 ## Dosya Yönlendirmeleri
 
 + Dosya betimleyicilerinin (file descriptors) anlamı
-+ Linux Çekirdeğinde dosya nesneleri ve dosyalara ilişkin veri yapıları
++ Linux çekirdeğinde dosya nesneleri ve dosyalara ilişkin veri yapıları
 + Dosya yönlendirmesinin yapılması (dup ve dup2 fonksiyonlarının kullanımı)
 + stdin, stdout ve stderr dosyalarının yönlendirilmesi
 
@@ -60,15 +60,15 @@
 + Koruma mekanizmasının anlamı
 + Bellek ve komut korumaları
 + Proseslerin bellek izolasyonu hakkında temel bilgiler
-+ Çekirdeğin kendini kullanıcı modundaki (usermode) prosesler tarafından koruması
-+ User Mod / KernelMod proses kavramları
-+ Prosesin kullanıcı modundançekirdekmoduna geçmesi ve geri dönmesi (usermode/kernelmodetransition)
++ Çekirdeğin kendini kullanıcı modundaki (user mode) prosesler tarafından koruması
++ Kullanıcı modu (user mode) ve çekirdek modu (kernel mode) kavramları
++ Prosesin kullanıcı modundan çekirdek moduna geçmesi ve geri dönmesi (user mode/kernel mode transition)
 
 ## İşlemcilerin Sayfalama (Paging) Mekanizmları ve Sanal Bellek (Virtual Memory) Kullanımı
 
-+ İşlemcilerin sayfalama mekanizması ve bu mekanizmanın anlamı
-+ Intel ve ARM işlemcilerinde sayfalama
-+ Sayfa tabloları (pagetables) 
++ İşlemcilerin sayfalama mekanizması
++ Intel ve ARM işlemcilerinde sayfalama mekanizması
++ Sayfa tabloları (page tables) 
 + Çok prosesli çalışmalarda sayfa tablolarının organizasyonu
 + Sayfalama için kullanılan içsel kesmeler 
 + Sanal bellek mekanizması
@@ -81,14 +81,15 @@
 + Üst (parent) ve alt proses (child) kavramları
 + Proseslerin id değerleri
 + fork fonksiyonunun kullanımı
-+ fork işleminin kernel tarafından gerçekleştirilmesi
++ fork işleminin çekirdek tarafından gerçekleştirilmesi
 + fork işleminde üst prosesten alt prosese aktarılan bilgiler
 + exec işleminin anlamı
 + exec fonksiyonları
-+ fork ve exec fonksiyonlarının birlikte kullanımı
-+ Prosesler üzerine işlemler yapan temel POSIX fonksiyonları
++ fork ve exec fonksiyonlarının birlikte kullanılması
++ Prosesler üzerine işlemler yapan POSIX fonksiyonları
 + Proseslerin exit kodları ve anlamı
 + Alt proseslerin beklenmesi ve wait fonksiyonları
+- init ptosesi
 + Hortlak (zombie) prosesler, hortlaklığın nedeni ve ortadan kaldırılması
 + Öksüz (orphan) prosesler
 + Proseslerin kod, data ve stack alanları
@@ -104,17 +105,17 @@
 ## Prosesler Arası Haberleşmeler
 
 + Prosesler arası haberleşmenin anlamı ve önemi
-+ İsimli ve isimsiz boru haberleşmeleri (named/unnamedpipes)
-+ Boru haberleşmeleri yoluyla client/servertarzı uygulamalar
++ İsimli ve isimsiz boru haberleşmeleri (named/unnamed pipes)
++ Boru haberleşmeleri yoluyla client/server tarzı uygulamalar
 + Linux çekirdeğinin boru haberleşmesini sağlama biçimi
-+ Paylaşılan bellek alanları (sharedmemory) yoluyla prosesler arası haberleşme
++ Paylaşılan bellek alanları (shared memory) yoluyla prosesler arası haberleşme
 + Paylaşılan bellek alanlarının System 5 ve modern POSIX fonksiyonlarıyla oluşturulması
 + Paylaşılan bellek alanlarının Linux çekirdeği tarafından gerçekleştirimi
 + Paylaşılan bellek alanlarında senkronizasyon sorunu
-+ Bellek tabanlı dosyalar (memorymappedfiles)
++ Bellek tabanlı dosyalar (memory mapped files)
 + Mesaj kuyrukları yöntemi
 + Mesaj kuyruklarının System 5 ve modern POSIX fonksiyonlarıyla oluşturulması ve kullanılması
-+ Aynı makinenin prosesleri arasında kullanılabilecek diğer yöntemler
++ Aynı makinenin prosesleri arasında haberleşmede kullanılan diğer yöntemler
 
 ## Thread’lerle İşlemler
 
