@@ -14,6 +14,7 @@
 + Çok prosesli (multiprocessing) çalışma ve zaman paylaşımlı (time sharing) CPU kullanımı 
 + Preemptive işletim sistemlerinin temel özellikleri 
 + Kavramsal olarak POSIX fonksiyonları, Standart C Fonksiyonları ve işletim sisteminin sistem fonksiyonları
++ POSIX fonksiyonlarında başarısızlık durumunun tespit edilmesi ve eele alınması
 
 ## UNIX Türevi Sistemlerde Login İşlemleri
 
@@ -121,14 +122,14 @@
 
 + Genel olarak thread kavramı 
 + Thread’lerin kullanılma gerekçeleri
-+ POSIX pthread kütüphanesinin tanıtımı
++ POSIX'in pthread kütüphanesinin tanıtımı
 + Thread’lerin yaratılması ve ve sonlanması
 + Thread’lerin özellikleri (thread attributes)
 + Thread’lerin sonlanmasının beklenmesi
 + Thread’lerin yok edilmesi (therad cancellation)
 + Thread’lerin bloke olması
 + Çok thread’li uygulamalar
-+ Thread’ler arası haberleşme
++ Thread’ler arası haberleşmeler
 + Thread senkronizasyonun anlamı
 + Mutex senkronizasyon nesnelerinin kullanımı
 + Mutex özelliklerinin değiştirilmesi
@@ -177,9 +178,9 @@
 + Daemon’ların yazımı ve kullanımı
 + Daemon’lara ilişkin ayrıntılı işlemler
 
-## Linux Sistemlerinde Proseslere İlişkin Yetenekler (ProcessCapabilities)
+## Linux Sistemlerinde Proseslere İlişkin Yetenekler (Process Capabilities)
 
-+ Linux sistemlerinde proses yetenekleri (processcapabilities) kavramı
++ Linux sistemlerinde proses yetenekleri (process capabilities) kavramı
 + Proses yeteneklerinin listesi ve anlamı
 + Proses yeteneklerinin set edilmesi ve üst prosesten alt prosese aktarılması
 
@@ -197,10 +198,10 @@
 + Statik kütüphanelerin yaratılması ve kullanılması
 + Dinamik kütüphanelerin yaratılması ve kullanılması
 + Dinamik kütüphanelerin yüklenmesi
-+ Konumdan bağımsız kod (positionindependentcode) kavramı
++ Konumdan bağımsız kod (positioni ndependent code) kavramı
 + Dinamik kütüphanelerde versiyonlama
 + Dinamik kütüphane kullanan uygulamaların konuşlandırılması
-+ Dinamik kütüphanelerin programın çalışma zamanı sırasında dinamik yüklenmesi ve kullanılması
++ Dinamik kütüphanelerin programın çalışma zamanı sırasında dinamik biçimdeyüklenmesi ve kullanılması
 + Dinamik kütüphaneler konusunda kullanılan yardımcı programlar
 
 ## İleri Dosya İşlemleri
@@ -225,14 +226,14 @@
 + OSI katmanları ve IP protokol ailesi katmanları
 + Berkeley soket arayüzü ve soket kütüphanesinin kullanımı
 + TCP/IP client/server programlama
-+ Client/server programlamadaki mesaj formatları
++ Client/server programlamadaki mesa formatları
 + Çok client’lı uygulamalar ve çok client’lı uygulamalarda izlenecek stratejiler
 + IP protokol ailesinin uygulama katmanına ilişkin bazı protokolleri hakkında açıklamalar (telnet, pop3, imap, http, …) ve bunlara ilişkin client programların yazımı
 + UDP/IP uygulamaları
 + UNIX domain soketlerinin kullanımı
 + Ölçeklenebilir (scaleable) dağıtık uygulamaların gerçekleştirilmesine yönelik stratejiler
 + Linux çekirdeğinin protokol mimarisi (Linux TCP/IP stack)
-+ Pcap kütüphanesinin kullanımı
++ Networdk sniffer programlar ve pcap kütüphanesinin kullanımı
 
 ## ProcSysDosya Sistemleri
 
@@ -243,19 +244,19 @@
 
 ## Object ve Executable Dosya Formatları
 
-+ Object dosya ve Executable dosya kavramları
++ Object dosya ve executable dosya kavramları
 + ELF formatının incelenmesi
 + ELF formatı üzerinde işlem yapan programlar
-+ BFD kütüphanesinin kullanımı
++ GNU BFD kütüphanesinin temel kullanımı
 + Object dosyaların link edilmesi
 + Relocation işlemi 
-+ FlatBinary dosyaların oluşturulması
++ Flat binary dosyaların oluşturulması
 
 ## Linux Dosya Sisteminde Disk Organizasyonu
 
 + Linux sistemlerinin kullandığı dosya sistemlerinin tanıtımı
-+ Disk sektörlerinin okunması ve yazılması
-+ Loopback aygıtları
++ Linux'ta disk sektörlerinin okunması ve yazılması
++ Loopback aygıtlar
 + I-Node tabanlı dosya sistemlerinin disk organizasyonları
 + Dosyaların i-node bilgileri
 + Hard link ve soft link kavramları
@@ -265,7 +266,7 @@
 
 + Linux sistemlerinin boot edilmesi
 + Boot sürecinin ayrıntıları
-+ Çekirdeğin boot parametreleri (kernelbootparameters)
++ Çekirdeğin boot parametreleri (kernel boot parameters)
 + Çekirdek imaj dosyasının yüklenmesi
 + Boot işlemi sırasında işlem gören çeşitli sistem dosyaları ve işlevleri
 + Boot işleminden sonra yaratılan temel prosesler 
@@ -275,7 +276,7 @@
 + Linux çekirdek kodlarının dizin organizasyonu
 + Linux çekirdek kodlarının genel yazım biçimi
 + Linux çekirdek kodlarında kullanılan temel veri yapıları
-+ Linux çekirdeğindeki dinamik tahsisat sistemi (slaballocator, buddyallocator, …)
++ Linux çekirdeğindeki dinamik tahsisat sistemleri (buddy allocator, slab allocator, …)
 + Linux çekirdekleri arasındaki versiyon farklılıkları
 
 ## Linux Çekirdeğinin Yeniden Derlenmesi
