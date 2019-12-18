@@ -2,22 +2,22 @@
 
 ## Temel Kavramlar 
 
-+ Kursun için gereken temel kavramların gözden geçirilmesi
++ Kurs için gereken temel kavramların gözden geçirilmesi
 + UNIX türevi sistemlerin tarihsel gelişimi
 + Özgür Yazılım ve Açık Kaynak Kod akımları
 + UNIX türevi sistemlere yönelik standartlar 
 + Kaynak yöneticisi olarak işletim sistemleri
-+ Dağıtım `(distribution)` kavramı.
++ Dağıtım (distribution) kavramı.
 + Belli başlı Linux dağıtımları ve bu dağıtımlar arasındaki ilişkiler
 + Proses kavramı 
 + Proseslerin kontrol blokları
-+ Çok prosesli `(multiprocessing) çalışma ve zaman paylaşımlı (time sharing) CPU kullanımı 
++ Çok prosesli (multiprocessing) çalışma ve zaman paylaşımlı (time sharing) CPU kullanımı 
 + Preemptive işletim sistemlerinin temel özellikleri 
 + Kavramsal olarak POSIX fonksiyonları, Standart C Fonksiyonları ve işletim sisteminin sistem fonksiyonları
 
 ## UNIX Türevi Sistemlerde Login İşlemleri
 
-+ Login işleminin gerçekleşitirilmesi
++ Sisteme Giriş ve login işlemi
 + Kullanıcı ve Grup Kavramları
 + Kullanıcı ve Grup İsimleri
 + Login sırasında yapılan kontroller
@@ -26,25 +26,27 @@
 ## UNIX/Linux Sistemlerinde Temel Dosya İşlemleri
 
 + Proseslerin Kullanıcı ve Grup Id’leri
-+ Proseslerin ek grupid’leri (supplemantarygroupids)
-+ Mutlak ve göreli yol ifadeleri
-+ Prosesin çalışma dizininin (currentworkingdirectory) anlamı, elde edilmesi ve değiştirilmesi
++ Proseslerin ek grup id’leri (supplemantarygroupids)
++ Kullanıcı ve grup bilgilerinin elde edilmesi
++ Yol ifadelerinin anlamı, mutlak ve göreli yol ifadeleri
++ Prosesin çalışma dizininin (current working directory) anlamı, elde edilmesi ve değiştirilmesi
 + UNIX/Linux sistemlerinde dosya işlemleri ve temel POSIX dosya fonksiyonları (open, read, write, lseek, close)
-+ Dosyalarda erişim hakları ve anlamları 
++ Dosyaların ve dizinlerin erişim hakları ve anlamları 
 + Ayrıcalıklı (root)  erişim hakkına sahip prosesler 
-+ Yardımcı dosya fonksiyonları (chmod, stat, remove, chown,  …)
-+ Dizinler (directories) üzerinde işlemler (dizinlerin yaratılması, yok edilmesi, dizinlerin erişim özellikleri, …)
++ Dosya bilgilerinin elde edilmesi ve stat fonksiyonları
++ Yardımcı dosya fonksiyonları (chmod, remove, chown,  …)
++ Dizinler üzerinde işlemler (dizinlerin yaratılması, yok edilmesi, dizinlerin erişim özellikleri, …)
 + Dizin içerisindeki girişlerin elde edilmesi
 + Dizin ağacının özyinelemeli olarak dolaşılması
 
 ## Önbellek (cache) Kavramı ve Linux Çekirdeğinin Uyguladığı Önbellek Mekanizmaları
 
 + Önbellek sistemleri
-+ Linux çekirdeğinde “buffercache” ve “pagecache” sistemleri
-+ Kullanıcı modundaki(usermode) dosya işlemlerinde gerçekleştirilen önbellek (tampon) sistemleri
++ Linux çekirdeğinde “buffercache” ve “page cache” sistemleri
++ Kullanıcı modundaki (user mode) dosya işlemlerinde gerçekleştirilen önbellek (tampon) sistemleri
 + C Programlama Dilinin stdio kütüphanesi tarafından uygulanan önbellek mekanizması
 + stdin, stdout ve stderr dosyalarının kullanıcı düzeyinde önbelleklenmesi
-+ Linux çekirdeğinin “pagecache”, “dentrycache” ve “i-nodecache” sistemleri
++ Linux çekirdeğinin “page cache”, “dentry cache” ve “i-node cache” sistemleri
 
 ## Dosya Yönlendirmeleri
 
