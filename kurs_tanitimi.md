@@ -7,11 +7,11 @@
 + Özgür Yazılım ve Açık Kaynak Kod akımları
 + UNIX türevi sistemlere yönelik standartlar 
 + Kaynak yöneticisi olarak işletim sistemleri
-+ Dağıtım (distribution) kavramı.
++ Dağıtım `(distribution)` kavramı.
 + Belli başlı Linux dağıtımları ve bu dağıtımlar arasındaki ilişkiler
 + Proses kavramı 
 + Proseslerin kontrol blokları
-+ Çok prosesli (multiprocessing) çalışma ve zaman paylaşımlı (time sharing) CPU kullanımı 
++ Çok prosesli `(multiprocessing)` çalışma ve zaman paylaşımlı `(time sharing)` CPU kullanımı 
 + Preemptive işletim sistemlerinin temel özellikleri 
 + Kavramsal olarak POSIX fonksiyonları, Standart C Fonksiyonları ve işletim sisteminin sistem fonksiyonları
 + POSIX fonksiyonlarında başarısızlık durumunun tespit edilmesi ve eele alınması
@@ -27,13 +27,13 @@
 ## UNIX/Linux Sistemlerinde Temel Dosya İşlemleri
 
 + Proseslerin kullanıcı ve grup id’leri
-+ Proseslerin ek grup id’leri (supplemantarygroupids)
++ Proseslerin ek grup id’leri `(supplemantary group ids)`
 + Kullanıcı ve grup bilgilerinin elde edilmesi
 + Yol ifadelerinin anlamı, mutlak ve göreli yol ifadeleri
-+ Prosesin çalışma dizininin (current working directory) anlamı, elde edilmesi ve değiştirilmesi
-+ UNIX/Linux sistemlerinde dosya işlemleri ve temel POSIX dosya fonksiyonları (open, read, write, lseek, close)
++ Prosesin çalışma dizininin `(current working directory)` anlamı, elde edilmesi ve değiştirilmesi
++ UNIX/Linux sistemlerinde dosya işlemleri ve temel POSIX dosya fonksiyonları `(open, read, write, lseek, close)`
 + Dosyaların ve dizinlerin erişim hakları ve anlamları 
-+ Ayrıcalıklı (root)  erişim hakkına sahip prosesler 
++ Ayrıcalıklı `(root)` erişim hakkına sahip prosesler 
 + Dosya bilgilerinin elde edilmesi ve stat fonksiyonları
 + Yardımcı dosya fonksiyonları (chmod, remove, chown,  …)
 + Dizinler üzerinde işlemler (dizinlerin yaratılması, yok edilmesi, dizinlerin erişim özellikleri, …)
@@ -43,17 +43,17 @@
 ## Önbellek (cache) Kavramı ve Linux Çekirdeğinin Uyguladığı Önbellek Mekanizmaları
 
 + Önbellek sistemleri
-+ Linux çekirdeğinde “buffercache” ve “page cache” sistemleri
-+ Kullanıcı modundaki (user mode) dosya işlemlerinde gerçekleştirilen önbellek (tampon) sistemleri
++ Linux çekirdeğinde `“buffer cache”` ve `page cache”` sistemleri
++ Kullanıcı modundaki `(user mode)` dosya işlemlerinde gerçekleştirilen ön bellek `(tampon)` sistemleri
 + C Programlama Dilinin stdio kütüphanesi tarafından uygulanan önbellek mekanizması
 + stdin, stdout ve stderr dosyalarının kullanıcı düzeyinde önbelleklenmesi
-+ Linux çekirdeğinin “page cache”, “dentry cache” ve “i-node cache” sistemleri
++ Linux çekirdeğinin `“page cache”`, `“dentry cache”` ve `“i-node cache”` sistemleri
 
 ## Dosya Yönlendirmeleri
 
-+ Dosya betimleyicilerinin (file descriptors) anlamı
++ Dosya betimleyicilerinin `(file descriptors)` anlamı
 + Linux çekirdeğinde dosya nesneleri ve dosyalara ilişkin veri yapıları
-+ Dosya yönlendirmesinin yapılması (dup ve dup2 fonksiyonlarının kullanımı)
++ Dosya yönlendirmesinin yapılması `(dup ve dup2 fonksiyonlarının kullanımı)`
 + stdin, stdout ve stderr dosyalarının yönlendirilmesi
 
 ## İşlemcilerin Koruma Mekanizmaları ve KullanıcıModu (User Mode) / Çekirdek Modu (KernelMode) Proses Kavramı
@@ -61,8 +61,8 @@
 + Koruma mekanizmasının anlamı
 + Bellek ve komut korumaları
 + Proseslerin bellek izolasyonu hakkında temel bilgiler
-+ Çekirdeğin kendini kullanıcı modundaki (user mode) prosesler tarafından koruması
-+ Kullanıcı modu (user mode) ve çekirdek modu (kernel mode) kavramları
++ Çekirdeğin kendini kullanıcı modundaki `(user mode)` prosesler tarafından koruması
++ Kullanıcı modu `(user mode)` ve çekirdek modu `(kernel mode)` kavramları
 + Prosesin kullanıcı modundan çekirdek moduna geçmesi ve geri dönmesi (user mode/kernel mode transition)
 
 ## İşlemcilerin Sayfalama (Paging) Mekanizmları ve Sanal Bellek (Virtual Memory) Kullanımı
