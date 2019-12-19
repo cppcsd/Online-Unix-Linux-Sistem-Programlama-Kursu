@@ -22,6 +22,9 @@
 
 Bu kursa katılabilmeniz için yeterli düzeyde `C Programlama Dili` bilgisine sahip olmanız gerekmektedir. 
 
+## Kurs İçeriği
+[Kurs içeriğini buradan görebilirsiniz.](https://github.com/CSD-1993/Online-Unix-Linux-Sistem-Programlama-Kursu/blob/master/kurs_icerigi.md)
+
 ## Kurs Süresi
 
 Eğitim Süresi `162` Saattir.
