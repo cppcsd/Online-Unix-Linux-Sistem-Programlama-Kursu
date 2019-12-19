@@ -8,7 +8,7 @@
 
 + Kurs [C ve Sistem Programcıları Derneği](www.csystem.org) tarafından `1998` yılından beri dernek bünyesinde ve kurumsal düzeyde verilmektedir. `UNIX/Linux` sistemlerinde yazılım geliştirme faaliyetlerinde bulunan `50`’ye yakın kuruma bu eğitim verilmiştir.
 
-+ `UNIX/Linux Sistem Programlama` uygulamalı bir kurstur. Kurs içerisinde yüzün üzerinde irili ufaklı uygulama yapılmaktadır.
++ `UNIX/Linux Sistem Programlama` uygulamalı bir kurstur. Kursta 100'den fazla irili ufaklı uygulama yapılmaktadır.
 
 + Kurs yalnızca `UNIX` türevi sistemlerinde programlamayı değil aynı zamanda bu sistemlerin aşağı seviyeli çalışma mekanizmasını da anlatmayı hedeflemektedir. 
 
@@ -24,7 +24,7 @@ Bu kursa katılabilmeniz için yeterli düzeyde `C Programlama Dili` bilgisine s
 
 ## Kurs Süresi
 
-Eğitim Süresi `172` Saattir.
+Eğitim Süresi `162` Saattir.
 
 ## Ders Saatleri
 
