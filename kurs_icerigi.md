@@ -79,7 +79,7 @@
 
 ## UNIX/Linux Sisteminde Proseslerin Yaratılması ve Proseslerle İlgili Temel İşlemler
 
-+ Üst (parent) ve alt proses (child) kavramları
++ Üst `(parent)` ve alt proses `(child)` kavramları
 + Proseslerin id değerleri
 + fork fonksiyonunun kullanımı
 + fork işleminin çekirdek tarafından gerçekleştirilmesi
@@ -91,11 +91,11 @@
 + Proseslerin exit kodları ve anlamı
 + Alt proseslerin beklenmesi ve wait fonksiyonları
 - init ptosesi
-+ Hortlak (zombie) prosesler, hortlaklığın nedeni ve ortadan kaldırılması
-+ Öksüz (orphan) prosesler
++ Hortlak `(zombie)` prosesler, hortlaklığın nedeni ve ortadan kaldırılması
++ Öksüz `(orphan)` prosesler
 + Proseslerin kod, data ve stack alanları
 
-## Proseslerin Çevre Değişkenleri (Environment Variables)
+## Proseslerin Çevre Değişkenleri `(Environment Variables)`
 
 + Proseslerin çevre değişkenlerinin anlamı ve önemi
 + Çevre değişkenlerinin değerlerinin elde edilmesi ve değiştirilmesi
@@ -106,14 +106,14 @@
 ## Prosesler Arası Haberleşmeler
 
 + Prosesler arası haberleşmenin anlamı ve önemi
-+ İsimli ve isimsiz boru haberleşmeleri (named/unnamed pipes)
++ İsimli ve isimsiz boru haberleşmeleri `(named/unnamed pipes)`
 + Boru haberleşmeleri yoluyla client/server tarzı uygulamalar
 + Linux çekirdeğinin boru haberleşmesini sağlama biçimi
-+ Paylaşılan bellek alanları (shared memory) yoluyla prosesler arası haberleşme
++ Paylaşılan bellek alanları `(shared memory)` yoluyla prosesler arası haberleşme
 + Paylaşılan bellek alanlarının System 5 ve modern POSIX fonksiyonlarıyla oluşturulması
 + Paylaşılan bellek alanlarının Linux çekirdeği tarafından gerçekleştirimi
 + Paylaşılan bellek alanlarında senkronizasyon sorunu
-+ Bellek tabanlı dosyalar (memory mapped files)
++ Bellek tabanlı dosyalar `(memory mapped files)`
 + Mesaj kuyrukları yöntemi
 + Mesaj kuyruklarının System 5 ve modern POSIX fonksiyonlarıyla oluşturulması ve kullanılması
 + Aynı makinenin prosesleri arasında haberleşmede kullanılan diğer yöntemler
@@ -136,15 +136,15 @@
 + Semaphore senkronizasyon nesnelerinin kullanımı
 + Farklı proseslerin thread’leri arasında senkronizasyon
 + Okuma/yazma kilitleri
-+ Koşul Değişkenleri (condition variables)
++ Koşul Değişkenleri `condition variables)`
 + Interlock işlemleri
-+ Kilitlenmeye yol açmayan veri yapıları (lock-free data sturctures) hakkında temel bilgiler
-+ Thread’e özgü alanlar (thread specific data)
-+ Fonksiyonların thread güvenliliği (thread safety) 
++ Kilitlenmeye yol açmayan veri yapıları `(lock-free data sturctures)` hakkında temel bilgiler
++ Thread’e özgü alanlar `(thread specific data)`
++ Fonksiyonların thread güvenliliği `(thread safety)` 
 + Linux çekirdeğinin thread gerçekleştirimi
 + POSIX thread çizelgelemesi ve thread öncelikleri
 + Linux sistemlerinde thread çizelgelemesinin ayrıntıları
-+ Thread havuzları (thread pools) ve thread havuzlarının gerçekleştirimleri
++ Thread havuzları `(thread pools)` ve thread havuzlarının gerçekleştirimleri
 
 ## Sinyal (Signal) İşlemleri
 
@@ -163,8 +163,8 @@
 
 + Proses grupları
 + Terminal Kavramı
-+ Oturum (session) kavramı
-+ İş (job) kavramı ve iş kontrol sinyalleri
++ Oturum `(session)` kavramı
++ İş `job)` kavramı ve iş kontrol sinyalleri
 
 ## Proseslerin Kaynak Kullanımı
 
@@ -178,9 +178,9 @@
 + Daemon’ların yazımı ve kullanımı
 + Daemon’lara ilişkin ayrıntılı işlemler
 
-## Linux Sistemlerinde Proseslere İlişkin Yetenekler (Process Capabilities)
+## Linux Sistemlerinde Proseslere İlişkin Yetenekler `(Process Capabilities)`
 
-+ Linux sistemlerinde proses yetenekleri (process capabilities) kavramı
++ Linux sistemlerinde proses yetenekleri `(process capabilities)` kavramı
 + Proses yeteneklerinin listesi ve anlamı
 + Proses yeteneklerinin set edilmesi ve üst prosesten alt prosese aktarılması
 
@@ -193,12 +193,12 @@
 
 ## Linux Sistemlerinde Statik ve Dinamik (Shared) Kütüphaneler
 
-+ Kütüphane (library) kavramı
++ Kütüphane `(library)` kavramı
 + Statik ve dinamik kütüphaneler arasındaki farklılıklar
 + Statik kütüphanelerin yaratılması ve kullanılması
 + Dinamik kütüphanelerin yaratılması ve kullanılması
 + Dinamik kütüphanelerin yüklenmesi
-+ Konumdan bağımsız kod (positioni ndependent code) kavramı
++ Konumdan bağımsız kod `(position independent code)` kavramı
 + Dinamik kütüphanelerde versiyonlama
 + Dinamik kütüphane kullanan uygulamaların konuşlandırılması
 + Dinamik kütüphanelerin programın çalışma zamanı sırasında dinamik biçimdeyüklenmesi ve kullanılması
@@ -208,11 +208,11 @@
 
 + Proseslerin kök dizinleri
 + Dosya özelliklerinin değiştirilmesi
-+ Dosyaların kilitlenmesi (file locks)
++ Dosyaların kilitlenmesi `(file locks)`
 + Dosya sistemi üzerinde gerçekleşen olayların ele alınması
 + Asenkron dosya işlemleri
 + select ve poll fonksiyonlarının kullanımı
-+ Dosya delikleri (file holes)
++ Dosya delikleri `(file holes)`
 + Dosya tamponlarının yönetilmesi
 + Dosya sisteminin mount edilmesi 
 + Otomatik mount işlemleri
@@ -231,9 +231,9 @@
 + IP protokol ailesinin uygulama katmanına ilişkin bazı protokolleri hakkında açıklamalar (telnet, pop3, imap, http, …) ve bunlara ilişkin client programların yazımı
 + UDP/IP uygulamaları
 + UNIX domain soketlerinin kullanımı
-+ Ölçeklenebilir (scaleable) dağıtık uygulamaların gerçekleştirilmesine yönelik stratejiler
-+ Linux çekirdeğinin protokol mimarisi (Linux TCP/IP stack)
-+ Networdk sniffer programlar ve pcap kütüphanesinin kullanımı
++ Ölçeklenebilir `(scaleable)` dağıtık uygulamaların gerçekleştirilmesine yönelik stratejiler
++ Linux çekirdeğinin protokol mimarisi `(Linux TCP/IP stack)`
++ `Network sniffer` programlar ve pcap kütüphanesinin kullanımı
 
 ## ProcSysDosya Sistemleri
 
@@ -266,7 +266,7 @@
 
 + Linux sistemlerinin boot edilmesi
 + Boot sürecinin ayrıntıları
-+ Çekirdeğin boot parametreleri (kernel boot parameters)
++ Çekirdeğin boot parametreleri `(kernel boot parameters)`
 + Çekirdek imaj dosyasının yüklenmesi
 + Boot işlemi sırasında işlem gören çeşitli sistem dosyaları ve işlevleri
 + Boot işleminden sonra yaratılan temel prosesler 
@@ -276,7 +276,7 @@
 + Linux çekirdek kodlarının dizin organizasyonu
 + Linux çekirdek kodlarının genel yazım biçimi
 + Linux çekirdek kodlarında kullanılan temel veri yapıları
-+ Linux çekirdeğindeki dinamik tahsisat sistemleri (buddy allocator, slab allocator, …)
++ Linux çekirdeğindeki dinamik tahsisat sistemleri `(buddy allocator, slab allocator, …)`
 + Linux çekirdekleri arasındaki versiyon farklılıkları
 
 ## Linux Çekirdeğinin Yeniden Derlenmesi
