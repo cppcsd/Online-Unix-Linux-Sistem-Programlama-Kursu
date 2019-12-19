@@ -47,7 +47,7 @@ Programın toplam ücreti `KDV dahil 3.200 TL`‘dir. Öğrencilere `(öğrencil
 
 Kurs `C ve Sistem Programcıları Derneği` başkanı `Kaan ASLAN` tarafından verilmektedir. `Kaan ASLAN` sistem programlama ve yazılım eğitiminde Türkiye’deki en deneyimli eğitmenlerindendir. Çeşitli pozisyonlarda pek çok projede bulunmuş, `200`’ün üzerinde kuruma eğitim ve danışmanlık hizmetleri vermiştir. 
 
-### Eğitim Programına Kayıt
+### Kursa Kayıt
 [Katılım için önce ön kayıt yaptırmalısınız](https://zoom.us/meeting/register/v5Qld--oqD0rVJfrvoJARlKBjXL6DywZAQ). Ön kayıt yaptırırken kendi isminizi ve e-posta adresinizi kullanmalısınız. Ön kayıt yaptırdığınızda kursa kesin katılımınız için sizinle iletişime geçeceğiz.
 
 
