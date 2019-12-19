@@ -1,6 +1,8 @@
 # Online Unix-Linux Kursu Genel Tanıtım
 
-+ Bu kurs `UNIX/Linux` türevi sistemlerinde `C` ile programlama yapmak isteyen, bu sistemlerin aşağı seviyeli tasarım ve yazımını öğrenmek isteyen programcılara yöneliktir. Kursun temel özellikleri şöyle özetlenebilir:
++ Bu kurs [C ve Sistem Programcıları Derneği](www.csystem.org) tarafından düzenlenmektedir. 
+
++ `UNIX/Linux` türevi sistemlerinde `C` dilini kullanarak programlama yapmak isteyen, bu sistemlerin aşağı seviyeli tasarım ve yazımını öğrenmek isteyen tüm programcılara yöneliktir. Kursun temel özellikleri şöyle özetlenebilir:
 
 + Kurs `C` Programlama dili ile `UNIX/Linux` sistemlerinde programlama yapmak isteyen programcılara yöneliktir. Kurs `“user mod”` ve `kernel mod”` programlama konularından oluşmaktadır.
 
@@ -20,13 +22,16 @@
 
 Bu kursa katılabilmeniz için yeterli düzeyde `C Programlama Dili` bilgisine sahip olmanız gerekmektedir. 
 
-## Eğitim Süresi
+## Kurs Süresi
 
 Eğitim Süresi `172` Saattir.
 
 ## Ders Saatleri
 
 Dersler hafta içi `Salı – Çarşamba – Perşembe` günleri saat `19.30 – 22.30` saatleri arasında `3`’er saat olarak yapılacaktır.
+
+## Kurs Ücreti
+Programın toplam ücreti KDV dahil 3.200 TL‘dir. Öğrencilere (öğrencilik durumunu belgelemeleri kaydıyla) %10 indirim uygulanmaktadır. Katılımcılar kurs ücretini dilerlerse 2 taksitte ödeyebilirler.
 
 ## Eğitmen
 
