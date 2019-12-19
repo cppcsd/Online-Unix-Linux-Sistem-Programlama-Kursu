@@ -30,6 +30,6 @@ Dersler hafta içi `Salı – Çarşamba – Perşembe` günleri saat `19.30 –
 
 ## Eğitmen
 
-Kurs `C ve Sistem Programcıları Derneği` başkanı `Kaan ASLAN` tarafından verilmektedir. `Kaan ASLAN` sistem programlama ve yazılım eğitiminde Türkiye’deki en deneyimli eğitmenlerdendir. Çeşitli pozisyonlarda pek çok projede bulunmuş, `200`’ün üzerinde kuruma eğitim ve danışmanlık hizmetleri vermiştir. 
+Kurs `C ve Sistem Programcıları Derneği` başkanı `Kaan ASLAN` tarafından verilmektedir. `Kaan ASLAN` sistem programlama ve yazılım eğitiminde Türkiye’deki en deneyimli eğitmenlerindendir. Çeşitli pozisyonlarda pek çok projede bulunmuş, `200`’ün üzerinde kuruma eğitim ve danışmanlık hizmetleri vermiştir. 
 
 
