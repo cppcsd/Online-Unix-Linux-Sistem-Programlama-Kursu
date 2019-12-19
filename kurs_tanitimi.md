@@ -1,12 +1,12 @@
 # Online Unix-Linux Kursu Genel Tanıtım
 
-+ Bu kurs [C ve Sistem Programcıları Derneği](www.csystem.org) tarafından düzenlenmektedir. 
++ Bu kurs [C ve Sistem Programcıları Derneği](http://www.csystem.org/) tarafından düzenlenmektedir. 
 
 + `UNIX/Linux` türevi sistemlerinde `C` dilini kullanarak programlama yapmak isteyen, bu sistemlerin aşağı seviyeli tasarım ve yazımını öğrenmek isteyen tüm programcılara yöneliktir. Kursun temel özellikleri şöyle özetlenebilir:
 
 + Kurs `C` Programlama dili ile `UNIX/Linux` sistemlerinde programlama yapmak isteyen programcılara yöneliktir. Kurs `“user mod”` ve `kernel mod”` programlama konularından oluşmaktadır.
 
-+ Kurs [C ve Sistem Programcıları Derneği](www.csystem.org) tarafından `1998` yılından beri dernek bünyesinde ve kurumsal düzeyde verilmektedir. `UNIX/Linux` sistemlerinde yazılım geliştirme faaliyetlerinde bulunan `50`’ye yakın kuruma bu eğitim verilmiştir.
++ Kurs `C ve Sistem Programcıları Derneği` tarafından `1998` yılından beri dernek bünyesinde ve kurumsal düzeyde verilmektedir. `UNIX/Linux` sistemlerinde yazılım geliştirme faaliyetlerinde bulunan `50`’ye yakın kuruma bu eğitim verilmiştir.
 
 + `UNIX/Linux Sistem Programlama` uygulamalı bir kurstur. Kursta 100'den fazla irili ufaklı uygulama yapılmaktadır.
 
