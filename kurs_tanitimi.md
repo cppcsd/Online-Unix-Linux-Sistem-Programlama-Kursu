@@ -1,6 +1,6 @@
 # Online Unix-Linux Kursu Genel Tanıtım
 
-+ Bu kurs `UNIX/Linux` türevi sistemlerinde `C` ile programlama yapmak isteyen, bu sistemlerin aşağı seviyeli tasarım ve yazımını öğrenmek isteyen programcılara yöneliktir.Kursun temel özellikleri şöyle özetlenebilir:
++ Bu kurs `UNIX/Linux` türevi sistemlerinde `C` ile programlama yapmak isteyen, bu sistemlerin aşağı seviyeli tasarım ve yazımını öğrenmek isteyen programcılara yöneliktir. Kursun temel özellikleri şöyle özetlenebilir:
 
 + Kurs `C` Programlama dili ile `UNIX/Linux` sistemlerinde programlama yapmak isteyen programcılara yöneliktir. Kurs `“user mod”` ve `kernel mod”` programlama konularından oluşmaktadır.
 
