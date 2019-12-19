@@ -1,6 +1,6 @@
 # Online Unix-Linux Kursu Genel Tanıtım
 
-+ Bu kurs [C ve Sistem Programcıları Derneği](http://www.csystem.org/) tarafından düzenlenmektedir. 
++ Bu kurs [C ve Sistem Programcıları Derneği](http://www.csystem.org/) tarafından düzenlenmektedir. Kurs `23 Ocak 2020` tarihinde başlayacaktır.
 
 + `UNIX/Linux` türevi sistemlerinde `C` dilini kullanarak programlama yapmak isteyen, bu sistemlerin aşağı seviyeli tasarım ve yazımını öğrenmek isteyen tüm programcılara yöneliktir. Kursun temel özellikleri şöyle özetlenebilir:
 
