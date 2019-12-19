@@ -90,7 +90,7 @@
 + Prosesler üzerine işlemler yapan POSIX fonksiyonları
 + Proseslerin exit kodları ve anlamı
 + Alt proseslerin beklenmesi ve wait fonksiyonları
-- init ptosesi
++ init prosesi
 + Hortlak `(zombie)` prosesler, hortlaklığın nedeni ve ortadan kaldırılması
 + Öksüz `(orphan)` prosesler
 + Proseslerin kod, data ve stack alanları
@@ -164,7 +164,7 @@
 + Proses grupları
 + Terminal Kavramı
 + Oturum `(session)` kavramı
-+ İş `job)` kavramı ve iş kontrol sinyalleri
++ İş `(job)` kavramı ve iş kontrol sinyalleri
 
 ## Proseslerin Kaynak Kullanımı
 
@@ -228,7 +228,7 @@
 + TCP/IP client/server programlama
 + Client/server programlamadaki mesa formatları
 + Çok client’lı uygulamalar ve çok client’lı uygulamalarda izlenecek stratejiler
-+ IP protokol ailesinin uygulama katmanına ilişkin bazı protokolleri hakkında açıklamalar (telnet, pop3, imap, http, …) ve bunlara ilişkin client programların yazımı
++ IP protokol ailesinin uygulama katmanına ilişkin bazı protokolleri hakkında açıklamalar `(telnet, pop3, imap, http ...)` ve bunlara ilişkin client programların yazımı
 + UDP/IP uygulamaları
 + UNIX domain soketlerinin kullanımı
 + Ölçeklenebilir `(scaleable)` dağıtık uygulamaların gerçekleştirilmesine yönelik stratejiler
