@@ -10,7 +10,7 @@
 
 + `UNIX/Linux Sistem Programlama` uygulamalı bir kurstur. Kursta 100'den fazla irili ufaklı uygulama yapılmaktadır.
 
-+ Kurs yalnızca `UNIX` türevi sistemlerinde programlamayı değil aynı zamanda bu sistemlerin aşağı seviyeli çalışma mekanizmasını da anlatmayı hedeflemektedir. 
++ Kurs yalnızca `UNIX` türevi sistemlerde programlamayı değil aynı zamanda bu sistemlerin aşağı seviyeli çalışma mekanizmasını da anlatmayı hedeflemektedir. 
 
 + Kurs `UNIX/Linux` sistemlerinin tasarım yazım ve programlanmasında ilerlemek ve ustalaşmak isteyen programcılara yöneliktir.
 
