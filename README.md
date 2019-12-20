@@ -2,7 +2,8 @@
 
 + Kurs [`C ve Sistem Programcıları Derneği`](http://www.csystem.org/) tarafından düzenlenmektedir.
 + Kursun `23 Ocak 2020` tarihinde başlayacaktır.
-+ Kurs eğitmeni `Kaan Aslan`'dır
++ Kurs eğitmeni `Kaan Aslan`'dır.
++ Kurs gerçek zamanlıdır.
 + Toplam kurs süresi `162` saattir. Dersler `Salı, Çarşamba ve Perşembe` günleri `19:30 - 22:30` saatleri arasında yapılacaktır.
 
 ## Kursla ilgili bağlantılar
